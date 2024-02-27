@@ -1,6 +1,7 @@
 package com.sortAndArray;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class MergeSort {
     public int[] mergeSort(int[] array) {
@@ -49,4 +50,25 @@ public class MergeSort {
         array = solution.mergeSort(array);
         System.out.println(Arrays.toString(array));
     }
+
+     public boolean isValid(String s) {
+        LinkedList<Character> linkedList=new LinkedList<Character>();
+        int n=s.length();
+        if(n%2==1) return false;
+        for(int i=0;i<n;i++){
+            char ch=s.charAt(i);
+            if(ch==')'){
+                if(linkedList.size()==0||linkedList.getLast()!='(') return false;
+                linkedList.removeLast();
+            }else if(ch=='}'){
+                if(linkedList.size()==0||linkedList.getLast()!='{') return false;
+                linkedList.removeLast();                
+            }else if(ch==']'){
+                if(linkedList.size()==0||linkedList.getLast()!='[') return false;
+                linkedList.removeLast();                
+            }else{
+                linkedList.addLast(ch);
+            }
+        }
+        return linkedList.size()==0;}
 }
