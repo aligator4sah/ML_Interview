@@ -36,5 +36,38 @@ public class SpiralTraversal {
         }
         recursiveTraverse(matrix, offset + 1, size - 2, result);
     }
+
+    // Method 2: Iterative method
+    public List<Integer> spiralII(int[][] matrix) {
+        // Assumptions: matrix is N * N >= 0
+        List<Integer> list = new ArrayList<>();
+        int n = matrix.length;
+        int start = 0;
+        int end = n - 1;
+
+        // base case: there is 0 or 1 element in the submatrix
+        while (start < end) {
+            for (int i = start; i <= end; i++) {
+                list.add(matrix[start][i]);
+            }
+            for (int i = start + 1; i <= end - 1; i++) {
+                list.add(matrix[i][end]);
+            }
+            for (int i = end; i >= start; i--) {
+                list.add(matrix[end][i]);
+            }
+            for (int i = end - 1; i >= start + 1; i--) {
+                list.add(matrix[i][start]);
+            }
+            start++;
+            end--;
+        }
+
+        // if at last we have 1 element left, we need to traverse it as well
+        if (start ==  end) {
+            list.add(matrix[start][end]);
+        }
+        return list;
+    }
     
 }
