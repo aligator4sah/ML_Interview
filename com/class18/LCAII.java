@@ -34,8 +34,6 @@ public class LCAII {
         return length;
     }
 
-
-
     static class TreeNodeP {
         TreeNodeP left;
         TreeNodeP right;
