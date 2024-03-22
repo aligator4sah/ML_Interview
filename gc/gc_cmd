@@ -1,0 +1,3 @@
+java -XX:+PrintGCDetails -Xloggc:/Users/saixiong/Documents/JobHunting/code_practice/gc/log/gc.log gc.GCLogSample
+
+java -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc GCLogSample.jar

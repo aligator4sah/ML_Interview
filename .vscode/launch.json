@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BlackJackGameAutomater",
+            "request": "launch",
+            "mainClass": "com.OOD.BlackJack.BlackJackGameAutomater",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "ParkingLotTest",
+            "request": "launch",
+            "mainClass": "com.OOD.ParkingLotTest",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "SortNumberThreeStacks",
+            "request": "launch",
+            "mainClass": "com.class3.SortNumberThreeStacks",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "MyCacheResourceI",
+            "request": "launch",
+            "mainClass": "com.class99.MyCacheResourceI",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "MyCacheResourceIII",
+            "request": "launch",
+            "mainClass": "com.class99.MyCacheResourceIII",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "MyHashMap",
+            "request": "launch",
+            "mainClass": "com.class99.MyHashMap",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "AbnormalSemaphoreSample",
+            "request": "launch",
+            "mainClass": "com.concurrent.AbnormalSemaphoreSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "CyclicBarrieSample",
+            "request": "launch",
+            "mainClass": "com.concurrent.CyclicBarrieSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "DeadLockSample",
+            "request": "launch",
+            "mainClass": "com.concurrent.DeadLockSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "LatchSample",
+            "request": "launch",
+            "mainClass": "com.concurrent.LatchSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "UsualSemaphoreSample",
+            "request": "launch",
+            "mainClass": "com.concurrent.UsualSemaphoreSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "DigitSwitch",
+            "request": "launch",
+            "mainClass": "com.sortAndArray.DigitSwitch",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "com.sortAndArray.MergeSort",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "com.sortAndArray.QuickSort",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "com.sortAndArray.SelectionSort",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "SortFirstK",
+            "request": "launch",
+            "mainClass": "com.sortAndArray.SortFirstK",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
+            "name": "GCLogSample",
+            "request": "launch",
+            "mainClass": "gc.GCLogSample",
+            "projectName": "code_practice_5c793ec4"
+        }
+    ]
+}
