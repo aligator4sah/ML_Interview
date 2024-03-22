@@ -3,7 +3,11 @@ package com.class5;
 import java.util.List;
 
 public class GraphNode {
-    int val;
-    List<GraphNode> neighbors;
+    public int val;
+    public List<GraphNode> neighbors;
+
+    public GraphNode(int val) {
+        this.val = val;
+    }
     
 }

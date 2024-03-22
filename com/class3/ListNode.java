@@ -1,7 +1,7 @@
 package com.class3;
 
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
     public ListNode(int val) {
