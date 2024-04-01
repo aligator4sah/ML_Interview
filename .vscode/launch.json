@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "com.class99.hsbc.test1",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
