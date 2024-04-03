@@ -23,6 +23,7 @@ public class KSmallest {
                 return o1 > o2 ? -1 : 1;
             }
         });
+        
         for (int i = 0; i < array.length; i++) {
             if (i < k) {
                 // offer the first k elements into max heap
