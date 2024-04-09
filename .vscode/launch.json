@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RandomSeven",
+            "request": "launch",
+            "mainClass": "com.class16.RandomSeven",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
             "name": "MyDynamicProxy",
             "request": "launch",
             "mainClass": "com.class99.MyDynamicProxy",
