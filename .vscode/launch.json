@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LInkedHashmapSample",
+            "request": "launch",
+            "mainClass": "com.class99.LInkedHashmapSample",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
             "name": "RandomSeven",
             "request": "launch",
             "mainClass": "com.class16.RandomSeven",
