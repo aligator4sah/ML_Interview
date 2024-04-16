@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoServer",
+            "request": "launch",
+            "mainClass": "nio.DemoServer",
+            "projectName": "code_practice_5c793ec4"
+        },
+        {
+            "type": "java",
             "name": "LInkedHashmapSample",
             "request": "launch",
             "mainClass": "com.class99.LInkedHashmapSample",
